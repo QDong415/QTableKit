@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'QTableKit_Example' do
+  pod 'QTableKit', :path => '../'
+
+  target 'QTableKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
