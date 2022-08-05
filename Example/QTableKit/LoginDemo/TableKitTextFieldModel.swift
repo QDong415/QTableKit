@@ -19,5 +19,4 @@ class TableKitTextFieldModel {
     var placeHolder: String?
     var keyboardType: UIKeyboardType = UIKeyboardType.default
     var textAlignment: NSTextAlignment = NSTextAlignment.right
-
 }

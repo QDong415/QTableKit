@@ -44,7 +44,7 @@ class LoginDemoController: BaseTableKitViewController {
         
     }
     
-    //添加"账号" TextFieldCell
+    //添加"账号" UITableViewCell
     func createAddTF(){
         let nameTkModel = TableKitTextFieldModel()
         nameTkModel.title = "账号"

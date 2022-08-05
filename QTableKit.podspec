@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  Make static UITableViewCell more conventient
+  Make static UITableViewCell more conventient,useful in loginVC\RegisterVC
                        DESC
 
   s.homepage         = 'https://github.com/QDong415/QTableKit'
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'QTableKit/Classes/**/*'
-  
+  s.swift_versions = ['5.0', '5.1', '5.2', '5.3']
   # s.resource_bundles = {
   #   'QTableKit' => ['QTableKit/Assets/*.png']
   # }
