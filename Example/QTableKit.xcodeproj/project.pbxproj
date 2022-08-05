@@ -8,10 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		00BA128DE367D0C59290606F /* Pods_QTableKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD80E1D7AC3545ABA82827FA /* Pods_QTableKit_Example.framework */; };
+		3652E33C289D5832000C7173 /* ByHelperDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652E31F289D5832000C7173 /* ByHelperDemoViewController.swift */; };
+		3652E33D289D5832000C7173 /* TableKitLabelXibAutoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652E321289D5832000C7173 /* TableKitLabelXibAutoModel.swift */; };
+		3652E33E289D5832000C7173 /* LabelFrameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652E322289D5832000C7173 /* LabelFrameCell.swift */; };
+		3652E33F289D5832000C7173 /* AutoCellHeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652E323289D5832000C7173 /* AutoCellHeightViewController.swift */; };
+		3652E340289D5832000C7173 /* TableKitLabelXibAutoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3652E324289D5832000C7173 /* TableKitLabelXibAutoCell.xib */; };
+		3652E341289D5832000C7173 /* TableKitLabelXibAutoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652E325289D5832000C7173 /* TableKitLabelXibAutoCell.swift */; };
+		3652E342289D5832000C7173 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652E326289D5832000C7173 /* RootViewController.swift */; };
+		3652E343289D5832000C7173 /* TableKitSingleButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3652E328289D5832000C7173 /* TableKitSingleButtonCell.xib */; };
+		3652E344289D5832000C7173 /* TableKitTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652E329289D5832000C7173 /* TableKitTextFieldCell.swift */; };
+		3652E345289D5832000C7173 /* TableKitSingleButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652E32A289D5832000C7173 /* TableKitSingleButtonCell.swift */; };
+		3652E346289D5832000C7173 /* TableKitSwitchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652E32B289D5832000C7173 /* TableKitSwitchModel.swift */; };
+		3652E347289D5832000C7173 /* LoginDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652E32C289D5832000C7173 /* LoginDemoController.swift */; };
+		3652E348289D5832000C7173 /* TableKitTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3652E32D289D5832000C7173 /* TableKitTextFieldCell.xib */; };
+		3652E349289D5832000C7173 /* TableKitSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652E32E289D5832000C7173 /* TableKitSwitchCell.swift */; };
+		3652E34A289D5832000C7173 /* TableKitTextFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652E32F289D5832000C7173 /* TableKitTextFieldModel.swift */; };
+		3652E34B289D5832000C7173 /* BaseTableKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652E330289D5832000C7173 /* BaseTableKitViewController.swift */; };
+		3652E34C289D5832000C7173 /* TableKitSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3652E331289D5832000C7173 /* TableKitSwitchCell.xib */; };
+		3652E354289D5832000C7173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652E33A289D5832000C7173 /* AppDelegate.swift */; };
+		3652E355289D5832000C7173 /* MacroUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652E33B289D5832000C7173 /* MacroUI.swift */; };
 		3CAAD58E21287174B7C511FF /* Pods_QTableKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB95BB70CE55D991F1422DC /* Pods_QTableKit_Tests.framework */; };
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
@@ -29,20 +45,37 @@
 
 /* Begin PBXFileReference section */
 		230F4A0FA819499A81F6B64B /* Pods-QTableKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTableKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-QTableKit_Tests/Pods-QTableKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		41C9F2C8E25A8893CD18F9A1 /* QTableKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QTableKit.podspec; path = ../QTableKit.podspec; sourceTree = "<group>"; };
+		3652E31D289D5831000C7173 /* QTableKit_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QTableKit_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		3652E31F289D5832000C7173 /* ByHelperDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ByHelperDemoViewController.swift; sourceTree = "<group>"; };
+		3652E321289D5832000C7173 /* TableKitLabelXibAutoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableKitLabelXibAutoModel.swift; sourceTree = "<group>"; };
+		3652E322289D5832000C7173 /* LabelFrameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelFrameCell.swift; sourceTree = "<group>"; };
+		3652E323289D5832000C7173 /* AutoCellHeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCellHeightViewController.swift; sourceTree = "<group>"; };
+		3652E324289D5832000C7173 /* TableKitLabelXibAutoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableKitLabelXibAutoCell.xib; sourceTree = "<group>"; };
+		3652E325289D5832000C7173 /* TableKitLabelXibAutoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableKitLabelXibAutoCell.swift; sourceTree = "<group>"; };
+		3652E326289D5832000C7173 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		3652E328289D5832000C7173 /* TableKitSingleButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableKitSingleButtonCell.xib; sourceTree = "<group>"; };
+		3652E329289D5832000C7173 /* TableKitTextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableKitTextFieldCell.swift; sourceTree = "<group>"; };
+		3652E32A289D5832000C7173 /* TableKitSingleButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableKitSingleButtonCell.swift; sourceTree = "<group>"; };
+		3652E32B289D5832000C7173 /* TableKitSwitchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableKitSwitchModel.swift; sourceTree = "<group>"; };
+		3652E32C289D5832000C7173 /* LoginDemoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginDemoController.swift; sourceTree = "<group>"; };
+		3652E32D289D5832000C7173 /* TableKitTextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableKitTextFieldCell.xib; sourceTree = "<group>"; };
+		3652E32E289D5832000C7173 /* TableKitSwitchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableKitSwitchCell.swift; sourceTree = "<group>"; };
+		3652E32F289D5832000C7173 /* TableKitTextFieldModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableKitTextFieldModel.swift; sourceTree = "<group>"; };
+		3652E330289D5832000C7173 /* BaseTableKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableKitViewController.swift; sourceTree = "<group>"; };
+		3652E331289D5832000C7173 /* TableKitSwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableKitSwitchCell.xib; sourceTree = "<group>"; };
+		3652E33A289D5832000C7173 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3652E33B289D5832000C7173 /* MacroUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacroUI.swift; sourceTree = "<group>"; };
+		41C9F2C8E25A8893CD18F9A1 /* QTableKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QTableKit.podspec; path = ../QTableKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5BB95BB70CE55D991F1422DC /* Pods_QTableKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QTableKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* QTableKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTableKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* QTableKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTableKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8E6EC061E8F0B36FE351D1B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		ACB4AE3263DB1BADDEC84B87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8E6EC061E8F0B36FE351D1B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ACB4AE3263DB1BADDEC84B87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AD13ED5450B2020137418152 /* Pods-QTableKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTableKit_Example.release.xcconfig"; path = "Target Support Files/Pods-QTableKit_Example/Pods-QTableKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BD80E1D7AC3545ABA82827FA /* Pods_QTableKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QTableKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91F0F17920139DD87B4DEA4 /* Pods-QTableKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTableKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-QTableKit_Tests/Pods-QTableKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +102,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3652E31E289D5832000C7173 /* HelperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3652E31F289D5832000C7173 /* ByHelperDemoViewController.swift */,
+			);
+			path = HelperDemo;
+			sourceTree = "<group>";
+		};
+		3652E320289D5832000C7173 /* AutoCellHeightDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3652E323289D5832000C7173 /* AutoCellHeightViewController.swift */,
+				3652E322289D5832000C7173 /* LabelFrameCell.swift */,
+				3652E325289D5832000C7173 /* TableKitLabelXibAutoCell.swift */,
+				3652E324289D5832000C7173 /* TableKitLabelXibAutoCell.xib */,
+				3652E321289D5832000C7173 /* TableKitLabelXibAutoModel.swift */,
+			);
+			path = AutoCellHeightDemo;
+			sourceTree = "<group>";
+		};
+		3652E327289D5832000C7173 /* LoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3652E330289D5832000C7173 /* BaseTableKitViewController.swift */,
+				3652E32C289D5832000C7173 /* LoginDemoController.swift */,
+				3652E32A289D5832000C7173 /* TableKitSingleButtonCell.swift */,
+				3652E328289D5832000C7173 /* TableKitSingleButtonCell.xib */,
+				3652E32E289D5832000C7173 /* TableKitSwitchCell.swift */,
+				3652E331289D5832000C7173 /* TableKitSwitchCell.xib */,
+				3652E32B289D5832000C7173 /* TableKitSwitchModel.swift */,
+				3652E329289D5832000C7173 /* TableKitTextFieldCell.swift */,
+				3652E32D289D5832000C7173 /* TableKitTextFieldCell.xib */,
+				3652E32F289D5832000C7173 /* TableKitTextFieldModel.swift */,
+			);
+			path = LoginDemo;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -93,12 +163,16 @@
 		607FACD21AFB9204008FA782 /* Example for QTableKit */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				3652E33A289D5832000C7173 /* AppDelegate.swift */,
+				3652E320289D5832000C7173 /* AutoCellHeightDemo */,
+				3652E31E289D5832000C7173 /* HelperDemo */,
+				3652E327289D5832000C7173 /* LoginDemo */,
+				3652E33B289D5832000C7173 /* MacroUI.swift */,
+				3652E326289D5832000C7173 /* RootViewController.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				3652E31D289D5831000C7173 /* QTableKit_Example-Bridging-Header.h */,
 			);
 			name = "Example for QTableKit";
 			path = QTableKit;
@@ -147,7 +221,6 @@
 				E91F0F17920139DD87B4DEA4 /* Pods-QTableKit_Tests.debug.xcconfig */,
 				230F4A0FA819499A81F6B64B /* Pods-QTableKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,7 +286,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1320;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -227,6 +300,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,9 +320,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				3652E340289D5832000C7173 /* TableKitLabelXibAutoCell.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				3652E343289D5832000C7173 /* TableKitSingleButtonCell.xib in Resources */,
+				3652E348289D5832000C7173 /* TableKitTextFieldCell.xib in Resources */,
+				3652E34C289D5832000C7173 /* TableKitSwitchCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,8 +408,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				3652E341289D5832000C7173 /* TableKitLabelXibAutoCell.swift in Sources */,
+				3652E34A289D5832000C7173 /* TableKitTextFieldModel.swift in Sources */,
+				3652E349289D5832000C7173 /* TableKitSwitchCell.swift in Sources */,
+				3652E33C289D5832000C7173 /* ByHelperDemoViewController.swift in Sources */,
+				3652E355289D5832000C7173 /* MacroUI.swift in Sources */,
+				3652E344289D5832000C7173 /* TableKitTextFieldCell.swift in Sources */,
+				3652E34B289D5832000C7173 /* BaseTableKitViewController.swift in Sources */,
+				3652E342289D5832000C7173 /* RootViewController.swift in Sources */,
+				3652E33E289D5832000C7173 /* LabelFrameCell.swift in Sources */,
+				3652E33F289D5832000C7173 /* AutoCellHeightViewController.swift in Sources */,
+				3652E347289D5832000C7173 /* LoginDemoController.swift in Sources */,
+				3652E33D289D5832000C7173 /* TableKitLabelXibAutoModel.swift in Sources */,
+				3652E354289D5832000C7173 /* AppDelegate.swift in Sources */,
+				3652E345289D5832000C7173 /* TableKitSingleButtonCell.swift in Sources */,
+				3652E346289D5832000C7173 /* TableKitSwitchModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,14 +445,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -419,11 +501,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -465,10 +548,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -478,13 +562,17 @@
 			baseConfigurationReference = FFE0E5150D0A102C79AE65DA /* Pods-QTableKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = QTableKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QTableKit/QTableKit_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -493,13 +581,16 @@
 			baseConfigurationReference = AD13ED5450B2020137418152 /* Pods-QTableKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = QTableKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QTableKit/QTableKit_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -507,6 +598,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E91F0F17920139DD87B4DEA4 /* Pods-QTableKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +621,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 230F4A0FA819499A81F6B64B /* Pods-QTableKit_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

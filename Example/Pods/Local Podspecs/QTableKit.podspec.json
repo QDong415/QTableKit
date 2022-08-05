@@ -1,0 +1,22 @@
+{
+  "name": "QTableKit",
+  "version": "0.1.0",
+  "summary": "A short description of QTableKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/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/QTableKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "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": "285275534@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/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/QTableKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "QTableKit/Classes/**/*"
+}

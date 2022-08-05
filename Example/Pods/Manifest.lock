@@ -1,0 +1,16 @@
+PODS:
+  - QTableKit (0.1.0)
+
+DEPENDENCIES:
+  - QTableKit (from `../`)
+
+EXTERNAL SOURCES:
+  QTableKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QTableKit: ea7e535b11de0218338eb10f14c2f2705db153d6
+
+PODFILE CHECKSUM: 436c3c6b91b5fb29c2ce8af2bb6943cffbaed08a
+
+COCOAPODS: 1.10.0

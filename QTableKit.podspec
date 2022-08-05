@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QTableKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of QTableKit.'
+  s.version          = '1.0'
+  s.summary          = 'Make static UITableViewCell more conventient .'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Make static UITableViewCell more conventient
                        DESC
 
-  s.homepage         = 'https://github.com/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/QTableKit'
+  s.homepage         = 'https://github.com/QDong415/QTableKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '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' => '285275534@qq.com' }
-  s.source           = { :git => 'https://github.com/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/QTableKit.git', :tag => s.version.to_s }
+  s.author           = { 'd19890415' => '285275534@qq.com' }
+  s.source           = { :git => 'https://github.com/QDong415/QTableKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
