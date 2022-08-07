@@ -7,7 +7,7 @@
 
 ## IOS 封装tableViewCell样式不一致的UITableView，告别复杂的DataSource和Delegate
 
-## 解决痛点：
+## 解决痛点，比如要实现下面的商品详情TableView：
 ![QQ20220806-1.jpg](https://upload-images.jianshu.io/upload_images/26002059-52b40b667c873c6b.jpg)
 
 类似登录注册界面的TableView、上面的商品详情的TableView、设置界面的TableView等。
@@ -29,7 +29,8 @@ class TableKitTextFieldModel {
        
     var title: String? //左边的Label内容文字
     var value: String? //TextField的输入内容
-    //TextField的属性
+
+    //以下是TextField的属性
     var secureTextEntry: Bool = false
     var placeHolder: String?
     var keyboardType: UIKeyboardType = UIKeyboardType.default
@@ -39,8 +40,7 @@ class TableKitTextFieldModel {
 ```
 ---
 再写Cell的代码
-```
-
+```Swift
 //触发cell内部控件的事件的key；用来区分是哪个内部事件
 let TKTextFieldEditingChangedKey = "TKTextFieldEditingChangedKey"
 
@@ -62,7 +62,7 @@ class TableKitTextFieldCell: UITableViewCell, TableKitCellDataSource {
     @IBOutlet weak var textField: UITextField!
     
     //MARK: TableKitCellDataSource - 默认高度
-    //这里的默认高度是第2优先级，如果在ViewController里设置本Cell高度属于第1优先级
+    //这里的return的高度是第2优先级，如果在ViewController里设置本Cell高度属于第1优先级
     static var defaultHeight: CGFloat? {
         //返回0表示Cell高度为0，不写该方法表示Cell高度为automaticDimension
         return 54
@@ -98,7 +98,13 @@ class TableKitTextFieldCell: UITableViewCell, TableKitCellDataSource {
 ---
 最后是ViewController：
 ```Swift
-//添加"账号" UITableViewCell
+
+    //管理全部的Cell
+    open var tableKitSections = [TableKitSection]()
+
+    //输入账号的Cell
+    private var nameTableKitRow: TableKitRow<TableKitTextFieldCell>!
+
     override func viewDidLoad() {
         let nameTkModel = TableKitTextFieldModel()
         nameTkModel.title = "账号"
